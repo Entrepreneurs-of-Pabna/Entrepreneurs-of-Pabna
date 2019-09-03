@@ -1,0 +1,38 @@
+.user-details {
+  text-align: left;
+}
+.user-details h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1;
+  color: #212121;
+}
+.user-details h4 {
+  font-size: 18px;
+}
+
+.user-details table{
+  width: 100%;
+}
+
+.user-details td {padding: 5px;}
+
+.user-details td.td-key {
+  width: 130px;
+  vertical-align: top;
+  font-weight: 500;
+  position: relative;
+}
+.user-details td.td-key::after {
+  content: ':';
+  color: #212121;
+  font-weight: 500;
+  position: absolute;
+  right: 0;
+}
+
+.user-details :last-child {font-weight: normal}
+
+.user-details tr:nth-child(odd){background: #99999925;}
+

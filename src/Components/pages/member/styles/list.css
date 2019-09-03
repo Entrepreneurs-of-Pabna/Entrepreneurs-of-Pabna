@@ -1,0 +1,89 @@
+.user-list {
+  width: 100%;
+}
+
+.user-list .title {
+  text-align: left;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #000;
+}
+.user-list ul {
+  list-style: none;
+  overflow: hidden;
+}
+.user-list li.member-list {
+  display: block;
+  text-align: left;
+  padding: 5px 0;
+  border-left: 2px solid transparent;
+  transition: 0.1s ease-in;
+}
+.user-list span {display: inline-block}
+.user-list .data {
+  display: inline-grid;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.user-list li a {
+  display: block;
+  color: #212121;
+}
+.user-list p.list-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+}
+.user-list p.list-title {
+  color: #212121cc;
+  margin: 0;
+}
+.user-list img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.user-list li:hover {
+  border-left-color: #06c;
+  background: #55555522;
+}
+.list-active {
+  background: #bedfff;
+}
+
+.user-list .title option {
+  width: 100%;
+  height: 100%;
+}
+
+/* Global Start */
+.title {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+select.catagory {
+  min-width: 100%;
+  margin: 0;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: transparent;
+}
+select.catagory option.thana-item {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+select.catagory option:nth-child(odd) {
+  background: #00000011;
+}
+/* Global End */

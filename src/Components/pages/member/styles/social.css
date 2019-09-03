@@ -1,0 +1,36 @@
+.user-social {
+  border: 2px solid #212121;
+  margin: 10px 0;
+}
+.user-social .title {
+  padding: 10px 0;
+  text-align: center;
+  background: #212121;
+  color: #fff;
+}
+.user-social ul {
+  list-style: none;
+  margin: 0;
+}
+.user-social li {
+  display: inline-table;
+  margin: 10px 2px;
+}
+.user-social span {
+  /* width: 25px; */
+  /* height: 24px; */
+  padding: 10px 15px;
+  color: #006cc4;
+  display: block;
+  border: 1px solid #006cc4;
+  border-radius: 99px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-align: center;
+  transition: 0.2s ease-in;
+}
+.user-social span:hover {
+  background: #006cc4;
+  color: #fff;
+}

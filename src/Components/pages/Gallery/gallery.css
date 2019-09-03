@@ -1,0 +1,36 @@
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.gallery h4 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.photo-info {
+    margin-top: 25px;
+    border: 1px solid #222;
+}
+.photo-info p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin: 0;
+}
+.photo-info p:nth-child(odd) {
+    background: #00000033;
+}
+
+.photo-info span {
+    font-weight: normal
+}
+.photo-info h4 {
+    text-align: left;
+    font-weight: 600;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+}

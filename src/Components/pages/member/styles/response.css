@@ -1,0 +1,26 @@
+.right-side {
+  position: fixed;
+  top: 75px;
+  right: 25px;
+}
+/* components/pages/members.js (Members) */
+@media screen and (max-width: 768px) {
+  .right-hidden, .left-hidden {
+    display: none;
+  }
+
+}
+
+/* components/pages/members.js (Member) */
+@media screen and (max-width: 768px) {
+  .res-list-2 {display: none}
+}
+
+
+/* components/pages/member (List) */
+.thumb {display: block}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .thumb {
+    display: none !important;
+  }
+}
