@@ -60,7 +60,7 @@ const selectSubmit = () => console.log(arrThana("Pabna Sadar"))
     <ul style={{"height":"100%"}}>
       {
         memberData.map(member => {
-        const url = "https://github.com/Entrepreneurs-of-Pabna/website/tree/gh-pages/";
+        const url = "https://raw.githubusercontent.com/Entrepreneurs-of-Pabna/website/gh-pages/";
         return <ListItem
           key={ member.id }
           url={ "/member/id=" +member.id }

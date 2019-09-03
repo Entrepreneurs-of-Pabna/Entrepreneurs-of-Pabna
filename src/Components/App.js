@@ -25,6 +25,7 @@ const App = () => {
           <Route path = "/photo/id=:id" component = { PhotoView } />
           <Route path = "/gallery" component = { Gallery }/>
           <Route path = "/member/id=:id" component = { Member } />
+          <Route path = "/website" component = { Members } exact />
           <Route path = "/members" component = { Members } exact />
           <Route path = "/" component = { Members } exact />
           <Route component = { NotFound } />

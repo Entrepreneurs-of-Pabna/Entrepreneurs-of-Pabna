@@ -10,7 +10,7 @@ import './styles/photo.css';
 const Photo = (props) => {
   const id = props.id || 1;
   const member = memberData.filter(member => member.id === id)[0] // get a single data
-  const url = "https://github.com/Entrepreneurs-of-Pabna/website/tree/gh-pages/";
+  const url = "https://raw.githubusercontent.com/Entrepreneurs-of-Pabna/website/gh-pages/";
   return <img 
     className="user-photo"
     src={ `${url}images/members/${member.id}.jpg` }
