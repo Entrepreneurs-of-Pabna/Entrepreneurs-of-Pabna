@@ -8,7 +8,7 @@
   .right-hidden, .left-hidden {
     display: none;
   }
-
+  .right-side{position: inherit;}
 }
 
 /* components/pages/members.js (Member) */
