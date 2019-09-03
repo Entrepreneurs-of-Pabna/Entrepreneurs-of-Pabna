@@ -2,7 +2,6 @@ import React from 'react';
 
 // import Database
 import { memberData } from './memberData';
-import { Block } from '../parts';
 
 // import CSS
 import './styles/details.css';
