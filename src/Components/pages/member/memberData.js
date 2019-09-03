@@ -7,7 +7,7 @@ export const memberData = [
     name: "Jubaer Ahmed",
     nickname: "",
     gender: "male",
-    DoB: null,
+    DoB: new Date("1999, 06, 17"),
     blood: "O+",
     batch: "6th",
     designation: "District Ambassador, Web Team Member",
@@ -27,16 +27,7 @@ export const memberData = [
         district: "Pabna"
       },
     },
-    occupation:[
-      {
-        name: "Student",
-        position: "Honurs (Dept. of Mathematics)",
-        institution: "Govt. Edward College, Pabna",
-        join: new Date(2017),
-        leave: null,
-        stillHere: true
-      }
-    ],
+    occupation:[],
     social: {
       facebook: "https://facebook.com/JubaerAhmed.info"
     },
