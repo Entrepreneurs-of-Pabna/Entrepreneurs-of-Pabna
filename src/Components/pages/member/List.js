@@ -60,10 +60,11 @@ const selectSubmit = () => console.log(arrThana("Pabna Sadar"))
     <ul style={{"height":"100%"}}>
       {
         memberData.map(member => {
+        const url = "https://github.com/Entrepreneurs-of-Pabna/website/tree/gh-pages/";
         return <ListItem
           key={ member.id }
           url={ "/member/id=" +member.id }
-          thumb={ `/images/members/${member.id}.jpg` }
+          thumb={ `${url}images/members/${member.id}.jpg` }
           name={ member.name +" "+ member.nickname }
           designation={ member.designation }
           />

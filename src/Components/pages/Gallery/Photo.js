@@ -17,13 +17,13 @@ import './gallery.css';
 export const SinglePhoto = (props) => {
   const id = props.id || 1;
   const photo = galleryData.filter(photo => photo.id === id)[0] // get a single data
-  console.log(id, photo)
+  const url = "https://github.com/Entrepreneurs-of-Pabna/website/tree/gh-pages/";
   return(
     <div className="row">
         <Photo 
           id={ id }
           title={ photo.title }
-          url={ `/images/gallery/${photo.id}.jpg` }
+          url={ `${url}images/gallery/${photo.id}.jpg` }
           time={ photo.time }
           location={ photo.location }
           event={ photo.event }
