@@ -19,22 +19,22 @@ export const SinglePhoto = (props) => {
   const photo = galleryData.filter(photo => photo.id === id)[0] // get a single data
   const url = "https://raw.githubusercontent.com/Entrepreneurs-of-Pabna/website/gh-pages/";
   return(
-    <div className="row">
+    <div className="row justify-content-center">
         <Photo 
           id={ id }
           title={ photo.title }
           url={ `${url}images/gallery/${photo.id}.jpg` }
-          time={ photo.time }
+          time={ photo.time ? photo.time.toDateString() : "" }
           location={ photo.location }
           event={ photo.event }
-          description={ photo.description } />
+          description={ photo.description.map((des, i)=> <p key={i}>{des}</p>) } />
     </div>
   )
 }
 // { `/images/gallery/${photo.id}.jpg` }
 export const Photo = (props) => {
   return(
-    <div className="photo-view">
+    <div className="col-md-12 photo-view">
       <h1>{ props.title }</h1>
         <img 
             className="gellary-photo-view"
@@ -46,7 +46,6 @@ export const Photo = (props) => {
             <p className="bold">Location : <span>{ props.location }</span></p>
             <p className="bold">Event Name : <span>{ props.event }</span></p>
             <p className="bold">Photo Description : <span>{ props.description }</span></p>
-
         </div>
     </div>
   )

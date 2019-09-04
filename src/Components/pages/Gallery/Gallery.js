@@ -17,6 +17,7 @@ const Gallery = () => {
                 <div key={ photo.id } className="col-md-3 col-sm-6 gallery">
                     <Link to={`/photo/id=${photo.id}`}>
                         <img
+                        className="gallery-photo"
                         src={`${url}images/gallery/${photo.id}.jpg`}
                         alt={ photo.title } />
                         <h4>{ photo.title }</h4>

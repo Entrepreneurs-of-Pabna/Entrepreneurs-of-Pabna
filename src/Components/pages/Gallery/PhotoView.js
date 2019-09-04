@@ -13,12 +13,6 @@ import './gallery.css';
 const PhotoView = (props) => {
   const id = Number(props.match.params.id)
   console.log(id,props)
-  return (
-    <div className="row">
-      <div className="col-md-3">
-        <SinglePhoto id={ id }/>
-      </div>
-    </div>
-  )
+  return <SinglePhoto id={ id }/>
 }
 export default PhotoView
